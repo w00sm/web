@@ -1,0 +1,166 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML 요소</title>
+        <meta charset="UTF-8">
+        <mata authors="임순범 박희민">
+    </head>
+    <body>
+        <h2><em>&lt;HTML 시작하기&gt;</em></h2>
+        <hr>
+        <p>첫 줄에 문서형식 선언</p>
+        <p><strong>다음 줄부터 요소로 구성</strong></p>
+        <p>[시작태그]<small>문서의 내용</small> &nbsp;&nbsp;&nbsp;[종료태그]<br>>내용 없는 요소는 단독 태그로</p>
+    </body>
+</html> -->
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>단락꾸미기</title>
+    </head>
+    <body>
+        <h1><mark>가로줄</mark>(Horizontal line) &lt;hr&gt; 요소</h1>
+        <p>가로줄은 &lt;hr&gt;요소를 이용</p>
+        <hr>
+        <p>자동으로 줄 바뀐다</p>
+        <h2>형식 유지 &lt;pre&gt; 요소</h2>
+        <p><small>&nbsp;p&nbsp;r&nbsp;e&nbsp;요&nbsp;소&nbsp;는 공백문자를
+        <br>&nbsp;&nbsp;&nbsp;입력한&nbsp;&nbsp;&nbsp;그대로
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;화면에&nbsp;&nbsp;&nbsp;&nbsp;출력한다.</small></p>
+        <h3>단락인용 &lt;blockquote&gt; 요소</h3>
+        <p>&nbsp;&nbsp;&nbsp;다른 글의 내용을 인용하여 적을 때 사용한다.
+        <br>&nbsp;&nbsp;&nbsp;인용된 내용은 화면에서 들여쓰기를 한다.</p>
+    </body>
+</html> -->
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>텍스트 꾸미기</title>
+    </head>
+    <body>
+        <h1>다양한 텍스트 표현</h1>
+        <p>텍스트의 성격을 지정해 주는 요소로 <em>강조(em)</em>, <strong>강한 강조(strong)</strong>,
+            <mark>하이라이트(mark)</mark>, <small>작은 글자(small)</small>, <sub>아래 첨자(sub)</sub>, <sup>위 첨자(sup)</sup>
+            를 표현할 수 있다.</p>
+        <p><strong>책 소개:</strong> <sup>쇼셜미디어 시대의</sup> <em>컴퓨터와 IT 기술의 이해</em></p>
+        <p><strong>저자:</strong> 최윤철, 한탁돈, 임순범</p>
+        <p><em>컴퓨터와 IT기술의 이해</em>는 <mark>IT기술 전반</mark>에 대해 포괄적으로 이해하고, 
+            특히 <small>우리 사회의 각 영역에서의</small> 활용과 미치는 영향을 이해하기 위해 
+            <strong>매우 적절한 교재가 될 것이다.</strong></p>
+    </body>
+</html> -->
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title> 목록 나열하기</title>
+    </head>
+    <body>
+        <p>순서 없는 목록</p>
+        <ul>
+            <li>첫 번째 항목(list item)</li>
+            <li>두 번째 항목(list item)</li>
+            <li>세 번재 항목(list item)</li>
+        </ul>
+        <p>순서 있는 항목</p>
+        <ol>
+            <li>첫 번째 항목(list item)</li>
+            <li>두 번째 항목(list item)</li>
+            <li>세 번째 항목(list item)</li>
+        </ol>
+        <p>설명 목록</p>
+        <dl>
+            <dt>항목1</dt><dd><strong>강조</strong></dd>
+            <dt>항목2</dt><dd><small>작은 글자</small></dd>
+            <dt>항목3</dt><dd><mark>하이라이트</mark></dd>
+            <dt>항목4</dt><dd><em>기울기</em></dd>
+            <dt>항목5</dt><dd><sup>위 첨자</sup></dd>
+            <dt>항목6</dt><dd><sub>아래 첨자</sub></dd>
+        </dl>
+    </body>
+</html> -->
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>표-기본 표현</title>
+    </head>
+    <body>
+        <h1>기본적인 표의 표현</h1>
+        <table border="10">
+            <tr>
+                <th>책 제목</th>
+                <th>저자</th>
+                <th>출판사</th>
+            </tr>
+            <tr>
+                <td>HTML 웹프로그래밍 입문</td>
+                <td>임순범, 박희민</td>
+                <td>생능</td>
+            </tr>
+            <tr>
+                <td>소셜미디의 시대의 인터넷 활용</td>
+                <td>최윤철, 임순범</td>
+                <td>생능</td>
+            </tr>
+            <tr>
+                <td>What Is HTML5?</td>
+                <td>B. McLaughlin</td>
+                <td>O'Reilly</td>
+            </tr>
+        </table>
+    </body>
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>표의 구조적 표현</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td rowspan="3">아래 줄(row)<br>셀 합치기</td>
+                <td>1행(row)2열</td>
+            </tr>
+            <tr>
+                <td>2행(row) 2열</td>
+            </tr>
+            <tr>
+                <td>3행(row) 2열</td>
+            </tr>
+        </table>
+        <table border="1">
+            <tr>
+                <td colspan="3">옆 칸(col)의 셀 합치기</td>
+            </tr>
+            <tr>
+                <td>2행 1열(col)</td>
+                <td>2행 2열(col)</td>
+                <td>2행 3열(col)</td>
+            </tr>
+        </table>
+    </body>
+</html>
