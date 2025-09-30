@@ -1,0 +1,6 @@
+h3 {font-style:italic;}
+p {font-size:10pt;}
+strong {font-style:italic;}
+#article {font-weight:bold;}    /*id*/
+.keyword {color: red;}  /*class*/
+a:visited {color: black; text-decoration:none;}
