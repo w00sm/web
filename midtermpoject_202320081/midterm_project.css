@@ -1,0 +1,9 @@
+table {border-collapse: collapse; border: 1px solid black;}
+th, td {font-family: monospace; font-size: 12pt; border: 1px solid black; padding: 8px; text-align: center;}
+.th1 {background-color: rgb(250, 247, 171);}
+.th2 {background-color: rgb(239, 170, 114);}
+.th3 {background-color: rgb(141, 219, 229);}
+.th4 {background-color: rgb(165, 153, 139);}
+.th5 {background-color: rgb(220, 182, 231);}
+.menu:hover {font-size: 13pt; font-weight: bold; color: rgb(59, 69, 73);}
+em {font-style: italic; text-decoration: underline;}
