@@ -1,2 +1,47 @@
 /* a:link {color: green;}
 a:visited {color: green;} */
+
+/* #vertical1 {vertical-align: top;}
+#vertical2 {vertical-align: middle;}
+#vertical3 {vertical-align: bottom;} */
+
+/* ol {list-style-type: upper-alpha;}
+ul li {text-transform: capitalize;}
+.ul1 {list-style-position: inside;}
+.li1 {list-style-type: circle;}
+.li2 {list-style-type: disc;}
+.text {text-transform: capitalize;} */
+
+/* p {line-height: 4pt;}
+a:link {color: green;}
+a:visited {color: black;}
+.underline {text-decoration: underline; text-decoration-color: green;}
+.content2 {color: blue; text-decoration: underline;  text-decoration-color: blue;}
+.text_color {color: green; text-decoration: underline;  text-decoration-color: green;}
+.position {list-style-position: outside; list-style-type: upper-alpha;} */
+
+/* h3::after {content: "(©sblim)";}
+h3 {background-color: green;}
+p {display: inline; background-color: yellow; border: 2px dotted red;}
+strong, .red1 {display: block; background-color: gray; margin: 10px; padding: 6px;}
+#next {margin-left: 30%; text-align: center; border-style: inset;} */
+
+/* #w3c_static {position: static;}
+#h5_static {position: static;}
+#css_relative {position: relative; left: 80px;}
+#h5_absolute {position: absolute; top: 205px; left: 100px;}
+#css_fixed {position: fixed; top: 20px; right: 100px;} */
+
+/* #img1 {z-index: 1; position: relative; top: -20px; left: 80px;}
+#img2 {z-index: 2; position: relative; top: -5px; left: 45px;} */
+
+/* #float1 {float: left;}
+#float2 {float: left;}
+#float3 {float: right;} */
+
+/* #text {width: 50%; height: 110px; min-width: 180px; border: medium double green;} */
+
+#of1 {overflow: visible; float: left; width: 20%; height: 140px; border: medium double yellow;}
+#of2 {overflow: hidden; float: left; width: 20%; height: 140px; border: medium double yellow;}
+#of3 {overflow: scroll; float: left; width: 20%; height: 140px; border: medium double yellow;}
+#of4 {overflow: auto; float: left; width: 20%; height: 140px; border: medium double yellow;}
